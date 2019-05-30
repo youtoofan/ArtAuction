@@ -77,7 +77,7 @@
 
                 <Image
                     Grid.Row="1"
-                    Source="ETHIcon"
+                    Source="ETHIcon.png"
                     VerticalOptions="Center" />
                 <Label
                     Grid.Row="1"
@@ -96,7 +96,7 @@
 
                 <Image
                     Grid.Row="2"
-                    Source="USDIcon"
+                    Source="USDIcon.png"
                     VerticalOptions="Center" />
                 <Label
                     Grid.Row="2"
@@ -150,7 +150,7 @@
                     <StackLayout Margin="10">
                         <Image
                             HorizontalOptions="Start"
-                            Source="USDIcon"
+                            Source="USDIcon.png"
                             VerticalOptions="Start" />
                         <Label
                             Style="{StaticResource SubtitleText}"
@@ -169,7 +169,7 @@
                     <StackLayout Grid.Column="1" Margin="10">
                         <Image
                             HorizontalOptions="Start"
-                            Source="BCIcon"
+                            Source="BCIcon.png"
                             VerticalOptions="Start" />
                         <Label
                             Style="{StaticResource SubtitleText}"
@@ -188,7 +188,7 @@
                     <StackLayout Grid.Column="2" Margin="10">
                         <Image
                             HorizontalOptions="Start"
-                            Source="ETHIcon"
+                            Source="ETHIcon.png"
                             VerticalOptions="Start" />
                         <Label
                             Style="{StaticResource SubtitleText}"
@@ -207,7 +207,7 @@
                     Style="{StaticResource BodyText}"
                     Text="Maximum Bid" />
 
-                <Image Source="QuestionIcon" />
+                <Image Source="QuestionIcon.png" />
             </StackLayout>
             <Label Style="{StaticResource BodyText}" Text="$45,000" />
             <BoxView

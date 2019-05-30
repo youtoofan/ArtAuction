@@ -21,7 +21,7 @@
                 <Image
                     Aspect="AspectFill"
                     HeightRequest="300"
-                    Source="StarryNight" />
+                    Source="StarryNight.png" />
                 <ContentView Padding="20">
                     <StackLayout>
                         <Label Style="{StaticResource TitleText}" Text="The Starry Night" />
@@ -47,7 +47,7 @@
                                 Aspect="AspectFill"
                                 HeightRequest="{StaticResource LinkImageSize}"
                                 HorizontalOptions="Center"
-                                Source="Vincent"
+                                Source="Vincent.png"
                                 VerticalOptions="Center"
                                 WidthRequest="{StaticResource LinkImageSize}">
                                 <circleImage:CircleImage.GestureRecognizers>
@@ -92,7 +92,7 @@
                                 Grid.Row="1"
                                 HeightRequest="30"
                                 HorizontalOptions="Center"
-                                Source="wikipedia_icon"
+                                Source="wikipedia_icon.png"
                                 VerticalOptions="Center"
                                 WidthRequest="30" />
 
@@ -111,7 +111,7 @@
                             <Image
                                 Grid.Row="1"
                                 Grid.Column="2"
-                                Source="Chevron" />
+                                Source="Chevron.png" />
 
 
                         </Grid>
